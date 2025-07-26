@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background: #1c1c1c;
+  padding: 40px 20px;
+}
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-area p {
+  font-size: 1rem;
+  color: #aaa;
+}
+.text-area h1 {
+  font-size: 3rem;
+  color: #ff3e3e;
+}
+.text-area h2 {
+  font-size: 2rem;
+  color: #fefefe;
+  margin-bottom: 20px;
+}
+.hero-buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.btn.primary {
+  background: #ff3e3e;
+  color: white;
+}
+.btn.secondary {
+  border: 1px solid #ff3e3e;
+  color: #ff3e3e;
+}
+.btn.primary:hover,
+.btn.secondary:hover {
+  opacity: 0.8;
+}
+.hero-image img {
+  width: 250px;
+  border-radius: 50%;
+  border: 3px solid #ff3e3e;
+  margin-top: 20px;
+}
+
+/* SKILLS BAR */
+.skills-bar {
+  background: #181818;
+  padding: 15px;
+  text-align: center;
+}
+.skills-bar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.skills-bar li {
+  list-style: none;
+  background: #2c2c2c;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* ABOUT SECTION */
+.about {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.about p {
+  color: #ccc;
+  margin-bottom: 30px;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.stat-box h3 {
+  font-size: 2rem;
+  color: #ff3e3e;
+}
+.stat-box p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* PROJECT SECTION */
+.projects {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.projects h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.project-card {
+  background: #222;
+  padding: 20px;
+  border-left: 4px solid #ff3e3e;
+  border-radius: 10px;
+  width: 300px;
+}
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+.project-card p {
+  color: #bbb;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #141414;
+  color: #777;
+  font-size: 0.9rem;
+}
