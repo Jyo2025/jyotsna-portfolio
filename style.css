@@ -102,7 +102,6 @@ body {
 }
 .about p {
   color: #ccc;
-  margin-bottom: 30px;
 }
 .stats {
   display: flex;
@@ -141,6 +140,7 @@ body {
   border-left: 4px solid #ff3e3e;
   border-radius: 10px;
   width: 300px;
+  height: 100%;
 }
 .project-card h3 {
   margin-bottom: 10px;
@@ -159,9 +159,9 @@ footer {
   font-size: 0.9rem;
 }
 
-.project-highlights ul{
+/* .project-highlights ul{
   list-style: none;
-}
+} */
 
 .project-card-link{
   text-decoration: none;
