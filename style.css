@@ -162,3 +162,7 @@ footer {
 .project-highlights ul{
   list-style: none;
 }
+
+.project-card-link{
+  text-decoration: none;
+}
